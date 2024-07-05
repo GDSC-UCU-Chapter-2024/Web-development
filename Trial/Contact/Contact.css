@@ -30,3 +30,27 @@ textarea {
     margin-bottom: 25px;
 }
 
+button {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 15px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:active{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+footer p hr{
+    background-color: #060616;
+    bottom: 0;
+}
