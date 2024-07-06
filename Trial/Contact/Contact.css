@@ -50,7 +50,8 @@ button:active{
     opacity: 0.5;
 }
 
-footer p hr{
-    background-color: #060616;
-    bottom: 0;
+.footer {
+    color: white;
+    text-align: center;
+    background: #060616;
 }
