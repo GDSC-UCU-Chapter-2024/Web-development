@@ -1,40 +1,48 @@
 * {
-    background: white;
+    background: rgb(189, 6, 235);
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+form {
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-left: 30%;
 }
 
 h1 {
-    color: rgb(0, 132, 255);
+    color: rgb(189, 6, 235);
     text-align: center;
-    font-size: 23px;
-    padding: 10px 10px;
+    background: white;
 }
 
 input {
     width: 70%;
-    font-size: 21px;
-    display: flex;
+    background: white;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 7px 7px;
     margin-left: 12%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 textarea {
     width: 70%;
-    font-size: 21px;
-    display: flex;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 7px 7px;
     margin-left: 12%;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    background: white;
 }
 
 button {
-    background-color: green;
+    background-color: rgb(189, 6, 235);
     color: white;
     border-radius: 20px;
-    padding: 15px 15px;
+    padding: 7px 7px;
     display: flex;
     text-align: center;
     margin: auto;
@@ -50,8 +58,3 @@ button:active{
     opacity: 0.5;
 }
 
-.footer {
-    color: white;
-    text-align: center;
-    background: #060616;
-}
